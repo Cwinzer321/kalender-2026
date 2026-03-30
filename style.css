@@ -249,9 +249,9 @@ body::before {
     transition: all 0.3s ease;
     flex: 1;
     min-height: 0;
-    overflow: hidden;
+    overflow-y: auto;
     padding-bottom: 0.5rem;
-    padding-right: 0;
+    padding-right: 4px;
 }
 
 .calendar-grid.single-view {
@@ -369,13 +369,12 @@ body::before {
 .days-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: 1fr;
     gap: 0.1rem;
-    flex: 1;
     min-height: 0;
 }
 
 .day {
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
