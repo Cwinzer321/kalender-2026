@@ -37,9 +37,4 @@ Proyek ini **tidak** membutuhkan *node modules*, *framework*, atau peladen basis
 
 ---
 
-## 🎨 Modifikasi Pengaturan *Event Range* bawaan
-Jika Anda ingin menyiapkan pengaturan acara khusus tambahan secara bawaan untuk orang lain, Anda bisa membuka `script.js` dan menyesuaikan rujukan data *array* `defaultRanges`. Pengguna juga bebas menimpanya dari tombol **"⚙️ Atur Acara"** di antarmuka Web!
-
----
-
 *Desain visual diracik khusus untuk memberikan pengalaman menatap masa depan untuk jadwal harian Anda.*
