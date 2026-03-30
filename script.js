@@ -72,14 +72,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             // Rentang Tanggal Akademik dari Local Storage
-            // const defaultRanges = [
-            //     { start: "2026-03-09", end: "2026-03-14", name: "Ujian Tengah Semester (UTS)", color: "violet" },
-            //     { start: "2026-06-08", end: "2026-06-13", name: "Ujian Akhir Semester (UAS)", color: "cyan" }
-            // ];
-
             let savedRanges = JSON.parse(localStorage.getItem('eventRanges2026'));
+            
+            // Purge legacy UTS/UAS defaults if they are stuck in memory
+            if (savedRanges && savedRanges.length > 0) {
+                savedRanges = savedRanges.filter(r => r.name !== "Ujian Tengah Semester (UTS)" && r.name !== "Ujian Akhir Semester (UAS)");
+                localStorage.setItem('eventRanges2026', JSON.stringify(savedRanges));
+            }
+
             if (!savedRanges) {
-                savedRanges = defaultRanges;
+                savedRanges = [];
                 localStorage.setItem('eventRanges2026', JSON.stringify(savedRanges));
             }
 
