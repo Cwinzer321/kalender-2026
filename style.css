@@ -238,10 +238,8 @@ body::before {
 .calendar-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     gap: 0.6rem;
     max-width: 1400px;
-    height: 100%;
     width: 100%;
     margin: 0 auto;
     z-index: 1;
