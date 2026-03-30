@@ -48,13 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 <div class="days-header">
-                    <div class="sunday">Min</div>
-                    <div>Sen</div>
-                    <div>Sel</div>
-                    <div>Rab</div>
-                    <div>Kam</div>
-                    <div>Jum</div>
-                    <div>Sab</div>
+                    <div class="sunday">M</div>
+                    <div>S</div>
+                    <div>S</div>
+                    <div>R</div>
+                    <div>K</div>
+                    <div>J</div>
+                    <div>S</div>
                 </div>
                 <div class="days-grid">
             `;
