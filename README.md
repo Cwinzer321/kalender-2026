@@ -43,4 +43,3 @@ Jika Anda ingin menyiapkan pengaturan acara khusus tambahan secara bawaan untuk 
 ---
 
 *Desain visual diracik khusus untuk memberikan pengalaman menatap masa depan untuk jadwal harian Anda.*
-*Dibuat oleh AI Assistant berkolaborasi dengan pengguna (Cwinzer321).*
